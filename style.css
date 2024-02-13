@@ -316,7 +316,7 @@ nav .fas{
 }
 @media only screen and (max-width:600px){
     #header{
-        width: 110%;
+        width: 100%;
         height: 100hv;
         background-image: url(pictures/PhoneBackground.jpg);
         background-size: cover;
