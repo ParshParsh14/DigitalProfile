@@ -179,6 +179,7 @@ nav ul li a:hover::after{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .work{
     border-radius: 10px;
@@ -186,11 +187,13 @@ nav ul li a:hover::after{
     overflow:hidden;
 }
 .work img{
-    width: 50%;
+    width: 90%;
+    height: 90%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
 }
+
 .layer{ 
     width: 100%;
     height: 0;
@@ -208,9 +211,10 @@ nav ul li a:hover::after{
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
+   
 }
 .layer h3{
-    font-weight: 500;
+    font-weight: 1000;
     margin-bottom: 20px;
 }
 .layer a{
